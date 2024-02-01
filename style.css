@@ -392,9 +392,82 @@ ul a {
     padding-top:5px ;
 }
 @media only screen and (max-width: 1100px) {
-    .navbar a {
-        margin: 10px 0; /* Add some spacing between the links */
-    }
+  
+        .navbar {
+            flex-direction:row;
+            align-items: flex-start;
+            height: auto;
+            padding: 10px;
+        }
+        .nav-logo {
+            margin-bottom: 20px;
+        }
+    
+        .nav-address,
+        .nav-singin,
+        .nav-return,
+        .nav-cart {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    
+        .nav-search {
+            width: 100%;
+            margin-top: 10px;
+        }
+    
+        .search-input {
+            font-size: 0.9rem;
+        }
+    
+        .language-container {
+            margin-top: 10px;
+        }
+    
+        .language-container p {
+            font-size: 12px;
+        }
+    
+        .flag img {
+            width: 20px;
+            height: 15px;
+            margin: 0 20px 1px 0;
+        }
+    
+        .nav-singin span,
+        .nav-return span,
+        .nav-second {
+            font-size: 0.8rem;
+        }
+    
+        .nav-cart i {
+            font-size: 25px;
+        }
+    
+        .panel {
+            height: auto;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+    
+        .panel .border {
+            margin-bottom: 5px;
+            padding: 8px;
+        }
+    
+        .panel-ops span {
+            margin: 3px 0;
+            padding: 6px;
+        }
+    
+        .new-launches {
+            font-size: 0.8rem;
+        }
+    
+    /* .navbar a { */
+        /* margin: 10px 0; Add some spacing between the links */
+    /* } */
     
 
     .flag img {
